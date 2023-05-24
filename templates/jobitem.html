@@ -1,0 +1,21 @@
+<div class="border-bottom row" style="margin-bottom:16px; padding-bottom:8px;">
+       <div class="col-8">
+         <h4 
+           style="color:#5D6D7E"; margin-bottom:4px;">
+           {{job['title']}}
+         </h4>
+          <div>
+            <b>Location: </b>{{job['location']}}
+          </div> 
+
+          {% if 'Salary' in job %}
+           <div>
+             <b>Salary: </b> {{job['Salary']}}
+           </div>
+           {% endif %}
+       </div>
+            <div class="col-4">
+             <button type="button" class="btn btn-outline-success">Apply</button>
+           </div> 
+           
+        </div>
