@@ -7,25 +7,31 @@ JOBS = [
     'id': 1,
     'title': 'Data Analyst',
     'location': 'Oklahoma City, OK',
-    'Salary': 'USD 145,000'
+    'Salary': 'USD $145,000'
   },
   {
     'id': 2,
+    'title': 'QA Specialist',
+    'location': 'Charlotte, NC',
+    'Salary': 'USD $95,0000'
+  },
+  {
+    'id': 3,
     'title': 'Data scientist',
     'location': 'Dallas, TX',
     'Salary': 'USD 155,000'
   },
   {
-    'id': 3,
+    'id': 4,
     'title': 'Front End Engineer',
     'location': 'Remote',
-    'Salary': 'USD 125,000'
+    'Salary': 'USD $125,000'
   },
   {
-    'id': 4,
+    'id': 5,
     'title': 'Backend Engineer',
     'location': 'San Francisco, CA',
-    'Salary': 'usd. 130,0000'
+    'Salary': 'USD $130,0000'
   },
 ]
 
