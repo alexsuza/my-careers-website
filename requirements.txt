@@ -1,3 +1,3 @@
 Flask
 gunicorn
-SQLAlchemy==1.4.46
+SQLAlchemy>=1.4.46,<=1.4.46
