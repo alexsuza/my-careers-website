@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 from database import load_jobs_from_db, load_job_from_db
 
 app = Flask(__name__)
@@ -23,6 +23,14 @@ def show_job(id):
     return "No posting found", 404
 
   return render_template('jobpage.html', job=job)
+
+
+@app.route("/job/<id>/apply", methods=['post'])
+def apply_to_job(id):
+  data = request.form
+  #store this in db
+
+  return jsonify(data)
 
 
 if __name__ == '__main__':
