@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<head>
+  <title>Application Submitted</title>
+  {%include 'bootstrap.html'%}
+</head>
+
+<body>
+   {%include 'nav.html' %}
+    {%include 'banner.html' %}
+
+ <div class="container">
+    <h1 class="text-center mt-2 mb-4"> 
+      Jobstill Careers </h1>
+   <p style="color: red"> Your application has been submitted for the role of
+     <b> {{job['title']}} </b> at has been submitted" </p>
+
+          
+  <h4>Full Name</h4>
+  <div class="mb-2">{{application['full_name']}}</div>
+
+  <h4>Email</h4>
+   <div class="mb-2">{{application['email']}}</div>
+
+  <h4>LinkedIn Url</h4>
+   <div class="mb-2">{{application['linkedin_url']}}</div>
+
+  <h4>Education</h4>
+  <div class="mb-2">{{application['education']}}</div>
+  
+  <h4>Work Experience</h4>
+  <div class="mb-2">{{application['work_experience']}}</div>
+
+        </div>
+</body>
+</html>
