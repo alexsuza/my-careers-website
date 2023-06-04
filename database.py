@@ -1,11 +1,7 @@
 from sqlalchemy import create_engine, text
 import os
 
-connection_string = os.environ['DB_STRING']
-engine = create_engine(connection_string,
-                       connect_args={"ssl": {
-                         "ssl_ca": "/etc/ssl/cert.pem"
-                       }})
+engine = create_engine(os.environ['DB_STRING'])
 
 
 def load_jobs_from_db():
