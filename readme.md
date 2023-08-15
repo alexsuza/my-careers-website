@@ -18,3 +18,9 @@ SQLAlchemy: an SQL toolkit and Object-Relational Mapping (ORM) library for Pytho
 HTML and CSS: for creating the website's user interface and styling.
 JavaScript: used for client-side interactivity and dynamic content.
 SQLite: a relational database used for storing job listings and applicant information.
+
+How to run this code
+Step 1: https://github.com/alexsuza/my-careers-website.git
+Step 2: Make sure python is installed
+Step 3: pip install -r requirements.txt
+Step 4: pip install -U python-dotenv # ensure the .env file is in current directory
