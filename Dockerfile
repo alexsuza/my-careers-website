@@ -14,3 +14,7 @@ RUN pip install -r requirements.txt
 RUN pip3 install -U python-dotenv
 
 CMD [ "python3", "-m", "flask", "run", "--host=0.0.0.0" ]
+
+# To build this file
+# RUN docker build -t <preferred_image_name>
+# docker run -d -p 5000:5000 preferred_image_name
